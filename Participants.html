@@ -94,6 +94,24 @@
 .giscus-box h3 {
   margin-bottom: 10px;
 }
+    .participant-feedback {
+  display: flex;
+  flex-wrap: wrap;          /* stacks boxes on smaller screens */
+  justify-content: center;  /* centers horizontally */
+  gap: 20px;                /* space between boxes */
+  margin-bottom: 60px;
+}
+
+.feedback-box {
+  flex: 1 1 400px;          /* min width 400px, grows if space allows */
+  max-width: 400px;         /* prevents boxes from being too wide */
+  text-align: center;
+}
+
+.feedback-box h3 {
+  margin-bottom: 10px;
+}
+
   </style>
 </head>
 <body>
@@ -117,27 +135,11 @@
   <h2 id=hailey>Hailey</h2>
   <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRB1onXvYg6nthR86q3jyIVLs7C3YT__gFBiTAnOOsM7qfJPsQbO0yZDtqD1TmG4N6RmNT961R6UUcY/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 <!-- Side-by-side Giscus boxes -->
-<div class="giscus-container">
-  <div class="giscus-box">
+<div class="participant-feedback">
+  <!-- Google Form -->
+  <div class="feedback-box">
     <h3>Update Your Words Written</h3>
-    <!-- Giscus embed code for the writer -->
-    <script src="https://giscus.app/client.js"
-        data-repo="ciarasmithwitch/Samhain-Scribing-Month"
-        data-repo-id="R_kgDOPlemFQ"
-        data-category="Writer Updates"
-        data-category-id="DIC_kwDOPlemFc4CutVQ"
-        data-mapping="specific"
-        data-term="hailey-writer"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="top"
-        data-theme="preferred_color_scheme"
-        data-lang="en"
-        data-loading="lazy"
-        crossorigin="anonymous"
-        async>
-    </script>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeqVm0vUDQnvfYh2f6UgrBcaR8CSezDWw3D-sagAROcqozn3g/viewform?embedded=true" width="640" height="721" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
   </div>
 
   <div class="giscus-box">
