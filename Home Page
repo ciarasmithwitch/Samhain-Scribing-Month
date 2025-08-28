@@ -1,1 +1,17 @@
+  <head>
+    <style>
 
+  h1 {
+
+    text-align: center;
+
+  }
+    
+    h3 {
+    text-align: center;
+    }
+      </style>
+    <h1>Samhain Scribing Month</h1>
+    <h3>Welcome</h3>
+    </head>
+  </html>
