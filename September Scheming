@@ -1,1 +1,19 @@
+  <head>
+    <style>
 
+  h1 {
+
+    text-align: center;
+    margin-top: 60px;
+    font-family: 'Brush Script MT', cursive;
+
+  }
+    
+    h3 {
+    text-align: center;
+    }
+      </style>
+    <h1>September Scheming</h1>
+    <h3>Where we plan for the scribing!</h3>
+    </head>
+  </html>
