@@ -76,7 +76,8 @@
       border: 0;
     }
 
-    .giscus-container {
+/* Container for side-by-side boxes (Google Form + comment box) */
+.participant-feedback {
   display: flex;
   flex-wrap: wrap;           /* stacks boxes on small screens */
   justify-content: center;   /* center horizontally */
@@ -84,16 +85,18 @@
   margin-bottom: 60px;       /* spacing below chart section */
 }
 
-.giscus-box {
+/* Individual box (Google Form or Utterances comment box) */
+.feedback-box, .utterances-box {
   flex: 1 1 400px;           /* grow/shrink, min width 400px */
   max-width: 400px;          /* prevents boxes from being too wide */
   text-align: center;
-  min-height: 200px;
+  min-height: 200px;         /* optional, keeps boxes from collapsing */
 }
 
-.giscus-box h3 {
+.feedback-box h3, .utterances-box h3 {
   margin-bottom: 10px;
 }
+
     .participant-feedback {
   display: flex;
   flex-wrap: wrap;          /* stacks boxes on smaller screens */
@@ -143,25 +146,16 @@
     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeqVm0vUDQnvfYh2f6UgrBcaR8CSezDWw3D-sagAROcqozn3g/viewform?embedded=true" width="640" height="721" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
   </div>
 
-  <div class="giscus-box">
+  <div class="utterances-box">
     <h3>Encourage the Writer</h3>
     <!-- Giscus embed code for comments -->
-    <script src="https://giscus.app/client.js"
-        data-repo="ciarasmithwitch/Samhain-Scribing-Month"
-        data-repo-id="R_kgDOPlemFQ"
-        data-category="Hailey Encouragement"
-        data-category-id="DIC_kwDOPlemFc4CutbH"
-        data-mapping="specific"
-        data-term="hailey-encouragement"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="top"
-        data-theme="preferred_color_scheme"
-        data-lang="en"
-        data-loading="lazy"
-        crossorigin="anonymous"
-        async>
+    <script src="https://utteranc.es/client.js""
+        repo="ciarasmithwitch/Samhain-Scribing-Month"
+          issue-term="hailey-discussion"
+    theme="github-light"
+    crossorigin="anonymous"
+    async>
+
     </script>
   </div>
 </div>
@@ -175,25 +169,15 @@
     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeqVm0vUDQnvfYh2f6UgrBcaR8CSezDWw3D-sagAROcqozn3g/viewform?embedded=true" width="640" height="721" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
   </div>
 
-  <div class="giscus-box">
+  <div class="utterances-box">
     <h3>Encourage the Writer</h3>
     <!-- Giscus embed code for comments -->
-    <script src="https://giscus.app/client.js"
-        data-repo="ciarasmithwitch/Samhain-Scribing-Month"
-        data-repo-id="R_kgDOPlemFQ"
-        data-category="Sarah Enouragement"
-        data-category-id="DIC_kwDOPlemFc4CutbI"
-        data-mapping="specific"
-        data-term="sarah-encouragement"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="top"
-        data-theme="preferred_color_scheme"
-        data-lang="en"
-        data-loading="lazy"
-        crossorigin="anonymous"
-        async>
+    <script src="https://utteranc.es/client.js""
+        repo="ciarasmithwitch/Samhain-Scribing-Month"
+          issue-term="sarah-discussion"
+    theme="github-light"
+    crossorigin="anonymous"
+    async>
     </script>
   </div>
 </div>
@@ -205,25 +189,15 @@
     <h3>Update Your Words Written</h3>
    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeqVm0vUDQnvfYh2f6UgrBcaR8CSezDWw3D-sagAROcqozn3g/viewform?embedded=true" width="640" height="721" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
   </div>
-    <div class="giscus-box">
+     <div class="utterances-box">
     <h3>Encourage the Writer</h3>
     <!-- Giscus embed code for comments -->
-    <script src="https://giscus.app/client.js"
-        data-repo="ciarasmithwitch/Samhain-Scribing-Month"
-        data-repo-id="R_kgDOPlemFQ"
-        data-category="Irshan Encourgement"
-        data-category-id="DIC_kwDOPlemFc4CutbJ"
-        data-mapping="specific"
-        data-term="irshan-encouragement"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="top"
-        data-theme="preferred_color_scheme"
-        data-lang="en"
-        data-loading="lazy"
-        crossorigin="anonymous"
-        async>
+    <script src="https://utteranc.es/client.js""
+        repo="ciarasmithwitch/Samhain-Scribing-Month"
+          issue-term="irshan-discussion"
+    theme="github-light"
+    crossorigin="anonymous"
+    async>
     </script>
   </div>
 </div>
@@ -237,25 +211,15 @@
     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeqVm0vUDQnvfYh2f6UgrBcaR8CSezDWw3D-sagAROcqozn3g/viewform?embedded=true" width="640" height="721" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
   </div>
 
-  <div class="giscus-box">
+   <div class="utterances-box">
     <h3>Encourage the Writer</h3>
     <!-- Giscus embed code for comments -->
-    <script src="https://giscus.app/client.js"
-        data-repo="ciarasmithwitch/Samhain-Scribing-Month"
-        data-repo-id="R_kgDOPlemFQ"
-        data-category="Yunnley Encouragement"
-        data-category-id="DIC_kwDOPlemFc4CutbQ"
-        data-mapping="specific"
-        data-term="yunnley-encouragement"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="top"
-        data-theme="preferred_color_scheme"
-        data-lang="en"
-        data-loading="lazy"
-        crossorigin="anonymous"
-        async>
+    <script src="https://utteranc.es/client.js""
+        repo="ciarasmithwitch/Samhain-Scribing-Month"
+          issue-term="yunnley-discussion"
+    theme="github-light"
+    crossorigin="anonymous"
+    async>
     </script>
   </div>
 </div>
@@ -268,25 +232,15 @@
     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeqVm0vUDQnvfYh2f6UgrBcaR8CSezDWw3D-sagAROcqozn3g/viewform?embedded=true" width="640" height="721" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
   </div>
 
-  <div class="giscus-box">
+   <div class="utterances-box">
     <h3>Encourage the Writer</h3>
     <!-- Giscus embed code for comments -->
-    <script src="https://giscus.app/client.js"
-        data-repo="ciarasmithwitch/Samhain-Scribing-Month"
-        data-repo-id="R_kgDOPlemFQ"
-        data-category="Casey Encouragement"
-        data-category-id="DIC_kwDOPlemFc4Cutbp"
-        data-mapping="specific"
-        data-term="casey-encouragement"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="top"
-        data-theme="preferred_color_scheme"
-        data-lang="en"
-        data-loading="lazy"
-        crossorigin="anonymous"
-        async>
+    <script src="https://utteranc.es/client.js""
+        repo="ciarasmithwitch/Samhain-Scribing-Month"
+          issue-term="casey-discussion"
+    theme="github-light"
+    crossorigin="anonymous"
+    async>
     </script>
   </div>
 </div>
