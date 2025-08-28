@@ -16,7 +16,7 @@
     h1 {
       margin-top: 60px;
     }
-    ul {
+    #navigation {
       list-style: none;
       padding: 0;
       margin: 20px auto;
@@ -39,11 +39,84 @@
 <body>
   <h1>Participants, Goals, and Charts</h1>
   <h3>Here you can find your word tracking and encourage others!</h3>
-  <ul>
+  <ul class="navigation">
     <li><a href="https://ciarasmithwitch.github.io/Samhain-Scribing-Month/index.html">Home</a></li>
     <li><a href="https://ciarasmithwitch.github.io/Samhain-Scribing-Month/September-Scheming.html">September Scheming</a></li>
     <li><a href="https://ciarasmithwitch.github.io/Samhain-Scribing-Month/Join.html">Join!</a></li>
     <li><a href="https://ciarasmithwitch.github.io/Samhain-Scribing-Month/Participants.html">Participants, Goals, and Progress</a></li>
   </ul>
+  
+  <ul class="name-list">
+  <li><a href="#sarah">Sarah</a></li>
+  <li><a href="#irshan">Irshan</a></li>
+  <li><a href="#yunnley">Yunnley</a></li>
+  <li><a href="#hailey">Hailey</a></li>
+  <!-- more names -->
+</ul>
+
+<style>
+#name-list {
+  column-count: 3;  /* number of columns */
+  column-gap: 20px; /* spacing between columns */
+  list-style: none; /* optional: removes bullets */
+  padding: 0;
+}
+#name-list li {
+  break-inside: avoid; /* prevents splitting items between columns */
+  margin-bottom: 5px;
+}
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 20px;
+    }
+
+    /* Smooth scrolling for anchor links */
+    html {
+      scroll-behavior: smooth;
+    }
+
+    /* Navigation links */
+    .chart-nav {
+      list-style: none;
+      padding: 0;
+      margin-bottom: 40px;
+    }
+
+    .chart-nav li {
+      display: inline-block;
+      margin: 0 15px;
+    }
+
+    .chart-nav a {
+      text-decoration: none;
+      color: #2a2a2a;
+      font-weight: bold;
+    }
+
+    /* Headers for each person */
+    h2 {
+      margin-top: 50px;
+      margin-bottom: 20px;
+      background-color: rgba(0,0,0,0.4); /* optional semi-transparent box */
+      color: white;
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 10px;
+    }
+
+    /* Responsive iframes */
+    iframe {
+      display: block;
+      margin: 0 auto 60px; /* centers and adds spacing below */
+      width: 90%;
+      max-width: 800px;
+      height: 400px;       /* adjust as needed */
+      border: 0;
+    }
+</style>
+  <h2 id=hailey>Hailey</h2>
+  <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRB1onXvYg6nthR86q3jyIVLs7C3YT__gFBiTAnOOsM7qfJPsQbO0yZDtqD1TmG4N6RmNT961R6UUcY/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+
 </body>
   </html>
