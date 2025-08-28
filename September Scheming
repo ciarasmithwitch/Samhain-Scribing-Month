@@ -1,4 +1,4 @@
-  <head>
+    <head>
     <style>
 
   h1 {
@@ -14,6 +14,21 @@
     }
       </style>
     <h1>September Scheming</h1>
-    <h3>Where we plan for the scribing!</h3>
+    <h3>Where we plan for next month's scribing!</h3>
     </head>
+<body>
+  <style>
+    ul {
+      
+      text-align: center;
+      
+    }
+  </style>
+  <ul>
+  <li><a href="https://ciarasmithwitch.github.io/Samhain-Scribing-Month/">Home</a></li>
+  <li><a href="https://ciarasmithwitch.github.io/Samhain-Scribing-Month/September-Scheming">September Scheming</a></li>
+    <li><a href="https://ciarasmithwitch.github.io/Samhain-Scribing-Month/Join">Join!</a></li>
+    <li><a href="https://ciarasmithwitch.github.io/Samhain-Scribing-Month/Participants">Participants, Goals, and Progress</a></li>
+  </ul>
+</body>
   </html>
