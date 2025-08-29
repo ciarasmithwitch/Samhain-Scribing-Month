@@ -2,33 +2,40 @@
 <head>
   <style>
     body {
-      background-color: #fffaf2;
-      margin: 0 auto;
-      text-align: center; 
+        margin: 0;
+  text-align: center; 
+  background-image: url('https://ciarasmithwitch.github.io/Samhain-Scribing-Month/book-stacks.png');
+  background-repeat: repeat-y;
+  background-position: center top;
+  background-size: 100% auto;
     }
-
+    
     @media only screen and (max-width: 768px) {
   body {
-    font-size: 14px;
     
+    font-size: 14px;
+    background-size: contain; /* show entire image, scaled down */
+    background-position: center top;
   }
   p {
     max-width: 75%;
-    margin: 0 auto;
     line-height: 1.4;
     font-family: 'Verdana';
+    margin: 0 auto;
   }
 }
 
 @media only screen and (max-width: 480px) {
   body {
     font-size: 12px;
-    
+    background-size: contain; /* still scaled down */
+    background-position: center top;
+
   }
   p {
     max-width: 75%;
-    margin: 0 auto;
     font-family: 'Verdana';
+    margin: 0 auto;
   }
 }
 
@@ -47,15 +54,17 @@
     }
     li {
       margin: 5px 0;
+      font-family: 'Verdana';
     }
     a {
       text-decoration: none;
     }
     p {
       margin-top: 60px;
-     max-width: 800px;  
+     max-width: min(75%, 800px); 
      margin: 0 auto;    
       text-align: left; 
+      font-family: 'Verdana';
     }
   </style>
 </head>
