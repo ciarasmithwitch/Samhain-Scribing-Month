@@ -67,6 +67,26 @@
       text-align: left; 
       font-family: 'Verdana';
     }
+    h2 {
+      margin-top: 50px;
+      margin-bottom: 20px;
+      background-color: rgba(0,0,0,0.4); /* optional semi-transparent box */
+      color: white;
+      display: block;
+      padding: 10px 20px;
+      border-radius: 10px;
+    }
+
+.feedback-box, .utterances-box {
+  flex: 1 1 400px;           /* grow/shrink, min width 400px */
+  max-width: 400px;          /* prevents boxes from being too wide */
+  text-align: center;
+  min-height: 200px;         /* optional, keeps boxes from collapsing */
+}
+
+.feedback-box h3, .utterances-box h3 {
+  margin-bottom: 10px;
+}
   </style>
 </head>
 <body>
@@ -78,5 +98,19 @@
     <li><a href="https://ciarasmithwitch.github.io/Samhain-Scribing-Month/Join.html">Join!</a></li>
     <li><a href="https://ciarasmithwitch.github.io/Samhain-Scribing-Month/Participants.html">Participants, Goals, and Progress</a></li>
   </ul>
+
+  <h2>Day 1</h2>
+  <p>Welcome to the first day of September Scheming. Today is easy, Introduce yourself below!</p>
+    </div>
+     <div class="utterances-box">
+    <!-- Giscus embed code for comments -->
+    <script src="https://utteranc.es/client.js""
+        repo="ciarasmithwitch/Samhain-Scribing-Month"
+          issue-term="day1-discussion"
+    theme="github-light"
+    crossorigin="anonymous"
+    async>
+    </script>
+  </div>
 </body>
   </html>
